@@ -1,0 +1,29 @@
+/* 直接复制星巴克的样式，font-size的值为百分比 */
+html {
+  font-size: 62.5% !important;
+}
+@media (min-width: 1025px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (min-width: 641px) {
+  html {
+    font-size: 59%;
+  }
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  height: calc(100vh - 84px);
+}
+
+@media (max-width: 1200px) {
+  .login {
+    height: auto;
+  }
+}

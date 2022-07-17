@@ -1,0 +1,114 @@
+html {
+  /* 
+designWidth: 1080
+
+iphone6+
+	100 * (414 / 1080) = 38.333333333333336px
+	1vw=414/100=4.14px;
+	38.333333333333336/4.14=9.259259259259261vw
+
+iphone6
+ 100 * (375 / 1080) =34.722222222222222px
+ 1vw = 375/100=3.75px
+ 34.722222222222222/3.75=9.259259259259261vw
+
+换算最终
+100*100/design
+*/
+  font-size: 9.259259259259261vw;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 750px;
+  font-size: 12px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+header {
+  background-color: #46ae00;
+  height: 1.76rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.46rem 0 0.2rem;
+}
+header .bar-left {
+  width: 4.3rem;
+  height: 1.43rem;
+}
+header a {
+  display: inline-block;
+}
+
+header .bar-right a:nth-of-type(1) {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.6rem;
+}
+header .bar-right a:nth-of-type(2) {
+  width: 0.85rem;
+  height: 0.56rem;
+}
+
+.banner img {
+  width: 100vw;
+}
+
+.apps {
+  display: flex;
+  padding: 0.3rem 0.3rem;
+  text-align: center;
+}
+
+.apps .appitem {
+  width: 25%;
+}
+
+.apps .img {
+  padding: 0.3rem;
+}
+
+.ad1-box {
+  width: 100vw;
+}
+.ad2-box {
+  padding: 0.2rem;
+  background-color: #f5f5f5;
+  margin-bottom: 1.8rem;
+}
+.ad2-box .item {
+  padding: 0.1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ad2-box .item .h-all {
+  width: 4.5rem;
+}
+.ad2-box .item .h-half-box {
+  width: 5.7rem;
+}
+.ad2-box .item .h-half-box .h-half-top {
+  margin-bottom: 0.2rem;
+}
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 1.8rem;
+  display: flex;
+  background-color: #fff;
+}
+.tab-bar .tab-bar-item {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab-bar .tab-bar-item .img {
+  width: 1.6rem;
+  height: 1.8rem;
+}
